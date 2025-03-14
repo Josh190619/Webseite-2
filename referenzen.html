@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referenzen – Metallbau Musterfirma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Unsere Referenzen</h1>
+        <p>Ein Überblick über unsere abgeschlossenen Projekte</p>
+        <a href="index.html" class="button">Zurück zur Startseite</a>
+    </header>
+
+    <section class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-track">
+                <div class="carousel-item"><img src="bild1.jpg" alt="Projekt 1"></div>
+                <div class="carousel-item"><img src="bild2.jpg" alt="Projekt 2"></div>
+                <div class="carousel-item"><img src="bild3.jpg" alt="Projekt 3"></div>
+            </div>
+        </div>
+
+        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+
+        <div class="carousel-indicators">
+            <span class="dot" onclick="setCarouselSlide(0)"></span>
+            <span class="dot" onclick="setCarouselSlide(1)"></span>
+            <span class="dot" onclick="setCarouselSlide(2)"></span>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Metallbau Musterfirma. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="carousel.js"></script>
+
+</body>
+</html>
