@@ -11,12 +11,36 @@
     <header>
         <h1>Metallbau Musterfirma</h1>
         <p>Präzision in Metall – Ihr Partner für hochwertige Metallbau-Lösungen</p>
-        <a href="referenzen.html" class="button">Unsere Referenzen</a>
+        <nav>
+            <ul>
+                <li><a href="#about">Über Uns</a></li>
+                <li><a href="#services">Leistungen</a></li>
+                <li><a href="referenzen.html">Referenzen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#career">Karriere</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <section id="hero">
+        <img src="hero.jpg" alt="Metallbau Firmengebäude" class="hero-image">
+    </section>
 
     <section id="about">
         <h2>Über Uns</h2>
-        <p>Platzhalter für eine kurze Firmenbeschreibung.</p>
+        <p>Wir sind Ihr zuverlässiger Partner für hochwertige Metallbau-Lösungen. Mit jahrelanger Erfahrung und einem hochqualifizierten Team setzen wir Ihre Ideen in die Realität um.</p>
+        <img src="about.jpg" alt="Unsere Werkstatt" class="content-image">
+    </section>
+
+    <section id="services">
+        <h2>Unsere Leistungen</h2>
+        <ul>
+            <li>Metallkonstruktionen</li>
+            <li>Geländer & Treppen</li>
+            <li>Industrielle Schweißarbeiten</li>
+            <li>Sonderanfertigungen</li>
+        </ul>
+        <img src="services.jpg" alt="Unsere Arbeit" class="content-image">
     </section>
 
     <section id="contact">
@@ -24,6 +48,18 @@
         <p>Adresse: Musterstraße 123, 12345 Musterstadt</p>
         <p>Telefon: +49 123 456 789</p>
         <p>Email: info@musterfirma.de</p>
+        <form>
+            <label for="name">Ihr Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Ihre E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Senden</button>
+        </form>
     </section>
 
     <footer>
